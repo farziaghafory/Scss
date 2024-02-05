@@ -80,7 +80,7 @@ a {
     margin-right: 2rem;
 }
 
-@media (max-width: 28.75em) {
+/*@media (max-width: 28.75em) {
     .nav {
         justify-content: center;
     }
@@ -89,7 +89,7 @@ a {
         margin: 0 1rem;
     }
 }
-
+*/
 .nav-list {
     a {
         display: block;
@@ -125,9 +125,12 @@ a {
 .home-sci {
     position: absolute;
     bottom: 40px;
-    width: 170px;
     @include flex($dark);
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    
+
 
     a {
         position: relative;
@@ -204,7 +207,7 @@ h2 {
     background-color: $dark;
 }
 
-@media (max-width: 28.75em) {
+/*@media (max-width: 28.75em) {
     .nav {
         justify-content: center;
     }
@@ -212,4 +215,9 @@ h2 {
     .nav-list {
         margin: 0 1rem;
     }
+}
+*/
+@media screen and (min-width: $tablet) {
+}
+@media screen and (min-width: $desktop) {
 }
